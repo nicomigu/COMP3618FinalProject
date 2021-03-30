@@ -13,4 +13,3 @@ C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattle
 C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CoreCompileInputs.cache
 C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
 C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb
-C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
