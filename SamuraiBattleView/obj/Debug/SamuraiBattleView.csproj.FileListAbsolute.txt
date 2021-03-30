@@ -1,0 +1,16 @@
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe.config
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\MainWindow.g.cs
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\App.g.cs
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.lref
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\App.baml
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\MainWindow.baml
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.g.resources
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.Properties.Resources.resources
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.GenerateResource.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CoreCompileInputs.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
