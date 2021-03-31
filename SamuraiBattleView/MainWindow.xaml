@@ -35,11 +35,13 @@
                             Command="{Binding ClearSamuraiCommand}"
                             Style="{StaticResource ButtonStyle}"/>
 
-            <Button x:Name="UpdateSamuraiButton"  Margin="5"
-                            Content="Update"
+            
+        </StackPanel>
+
+        <Button Grid.Row ="1" Grid.Column="1" x:Name="UpdateSamuraiButton"  Margin="5"
+                            Content="Update" Width="50" HorizontalAlignment="Left"
                             Command="{Binding UpdateSamuraiCommand}"
                             Style="{StaticResource ButtonStyle}"/>
-        </StackPanel>
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="0" Grid.Row="2">
             <ListBox Style="{StaticResource ListBoxStyle}" >
@@ -63,11 +65,13 @@
                             Command="{Binding ClearBattleCommand}"
                             Style="{StaticResource ButtonStyle}"/>
 
-            <Button x:Name="UpdateBattleButton"  Margin="5"
+            
+        </StackPanel>
+
+        <Button x:Name="UpdateBattleButton"  Margin="5" Grid.Row ="1" Grid.Column="3" Width="50" HorizontalAlignment="Left"
                             Content="Update"
                             Command="{Binding UpdateBatttleCommand}"
                             Style="{StaticResource ButtonStyle}"/>
-        </StackPanel>
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
             <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ListBoxStyle}" >
@@ -89,7 +93,7 @@
             <TextBox x:Name="SamuraiAge" Style="{StaticResource TextBoxAttribute}"></TextBox>
             <TextBlock Style="{StaticResource DisplayStyle}">Town:</TextBlock>
             <TextBox x:Name="SamuraiTown" Style="{StaticResource TextBoxAttribute}"></TextBox>
-            <TextBlock Style="{StaticResource DisplayStyle}">Battles:</TextBlock>
+            <TextBlock Style="{StaticResource DisplayStyle}">Battle(s) Fought in:</TextBlock>
             <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
                 <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ShortListBoxStyle}" Height="91">
                     <ListBoxItem Content="Battle 1"/>
