@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiBattleView", "SamuraiBattleView\SamuraiBattleView.csproj", "{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{405A6D96-7B96-45E3-97A2-B126D73179CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405A6D96-7B96-45E3-97A2-B126D73179CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405A6D96-7B96-45E3-97A2-B126D73179CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405A6D96-7B96-45E3-97A2-B126D73179CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405A6D96-7B96-45E3-97A2-B126D73179CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
