@@ -78,7 +78,10 @@
             </ListBox>
         </ScrollViewer>
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Style="{StaticResource CountStyle}">8000 Records</TextBlock>
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal">
+            <TextBlock Style="{StaticResource CountStyle}" Text="{Binding Warriors.Count}" />
+            <TextBlock Style="{StaticResource CountStyle}" Text="Records" />
+        </StackPanel>
 
         <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="1" DataContext="{Binding samurai}">
             <TextBlock Style="{StaticResource DisplayStyle}">Name:</TextBlock>
@@ -120,6 +123,9 @@
 
         </StackPanel>
 
-        <TextBlock Grid.Row="3" Grid.Column="2" Style="{StaticResource CountStyle}">8000 Records</TextBlock>
+        <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal">
+            <TextBlock Style="{StaticResource CountStyle}" Text="{Binding Contests.Count}" />
+            <TextBlock Style="{StaticResource CountStyle}" Text="Records" />
+        </StackPanel>
     </Grid>
 </Window>
