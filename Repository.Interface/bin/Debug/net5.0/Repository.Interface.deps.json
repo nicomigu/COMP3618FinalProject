@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Repository.Interface/1.0.0": {
+        "dependencies": {
+          "SamuraiApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Repository.Interface.dll": {}
+        }
+      },
+      "SamuraiApp.Domain/1.0.0": {
+        "runtime": {
+          "SamuraiApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Repository.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SamuraiApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

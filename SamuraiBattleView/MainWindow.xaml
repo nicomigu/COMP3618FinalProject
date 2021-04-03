@@ -27,7 +27,7 @@
         <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1">
             <Button x:Name="FetchSamuraiDataButton"  Margin="5"
                             Content="Fetch Data"
-                            Command="{Binding FetchSamuraiCommand}"
+                            Command="{Binding RefreshSamuraiCommand}"
                             Style="{StaticResource ButtonStyle}"/>
             
             <Button x:Name="ClearSamuraiDataButton"  Margin="5"
@@ -46,10 +46,7 @@
         <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="0" Grid.Row="2">
             <ListBox Style="{StaticResource ListBoxStyle}" ItemsSource="{Binding Warriors}" 
                      SelectedItem="{Binding samurai}" DisplayMemberPath="Name">
-                <ListBoxItem Content="Samurai 1"/>
-                <ListBoxItem Content="Samurai 1"/>
-                <ListBoxItem Content="Samurai 1"/>
-                <ListBoxItem Content="Samurai 1"/>
+
             </ListBox>
             </ScrollViewer>
 
@@ -58,7 +55,7 @@
         <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
             <Button x:Name="FetchBattleDataButton"  Margin="5"
                             Content="Fetch Data"
-                            Command="{Binding FetchBattleCommand}"
+                            Command="{Binding RefreshBattleCommand}"
                             Style="{StaticResource ButtonStyle}"/>
 
             <Button x:Name="ClearBattleDataButton"  Margin="5"
@@ -71,16 +68,13 @@
 
         <Button x:Name="UpdateBattleButton"  Margin="5" Grid.Row ="1" Grid.Column="3" Width="50" HorizontalAlignment="Left"
                             Content="Update"
-                            Command="{Binding UpdateBatttleCommand}"
+                            Command="{Binding UpdateBattleCommand}"
                             Style="{StaticResource ButtonStyle}"/>
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
-            <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ListBoxStyle}" ItemsSource="{Binding Contests}"
-                     DisplayMemberPath="Name">
-                <ListBoxItem Content="Battle 1"/>
-                <ListBoxItem Content="Battle 1"/>
-                <ListBoxItem Content="Battle 1"/>
-                <ListBoxItem Content="Battle 1"/>
+            <ListBox Style="{StaticResource ListBoxStyle}" ItemsSource="{Binding Contests}"
+                      SelectedItem="{Binding contest}" DisplayMemberPath="Name">
+
             </ListBox>
         </ScrollViewer>
 
@@ -99,18 +93,6 @@
             <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
                 <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ShortListBoxStyle}" Height="91" 
                          ItemsSource="{Binding Battles}" DisplayMemberPath="Name">
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
-                    <ListBoxItem Content="Battle 1"/>
                 </ListBox>
             </ScrollViewer>
             <Button x:Name="AddSamuraiToBattleButton"  Margin="5"
@@ -119,7 +101,7 @@
                             Style="{StaticResource ButtonStyle}"/>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="3" DataContext="{Binding Contests}">
+        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="3" DataContext="{Binding contest}">
             <TextBlock Style="{StaticResource DisplayStyle}">Name:</TextBlock>
             <TextBox x:Name="BattleName" Style="{StaticResource TextBoxAttribute}"  Text="{Binding Name}"></TextBox>
             <TextBlock Style="{StaticResource DisplayStyle}">Date:</TextBlock>
@@ -132,19 +114,7 @@
             <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
                 <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ShortListBoxStyle}" Height="155"
                          ItemsSource="{Binding Samurai}" DisplayMemberPath="Name">
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
-                    <ListBoxItem Content="Samurai 1"/>
+
                 </ListBox>
             </ScrollViewer>
 

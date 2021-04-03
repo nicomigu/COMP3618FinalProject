@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{405A6D96-7B96-45E3-97A2-B126D73179CD}</ProjectGuid>
+    <ProjectGuid>{03EFA1E6-7ACD-4E77-BE60-5442879B3FB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ViewModel</RootNamespace>
-    <AssemblyName>ViewModel</AssemblyName>
+    <RootNamespace>Repository2</RootNamespace>
+    <AssemblyName>Repository2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ViewModel.cs" />
+    <Compile Include="CSVRepository.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DomainClasses\DomainClasses.csproj">
+      <Project>{07609e74-3dec-4ef1-93b9-e24e5a8482b8}</Project>
+      <Name>DomainClasses</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

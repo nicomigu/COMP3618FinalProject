@@ -1,0 +1,15 @@
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\bin\Debug\net5.0\Repository.Interface.deps.json
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\bin\Debug\net5.0\Repository.Interface.dll
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\bin\Debug\net5.0\ref\Repository.Interface.dll
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\bin\Debug\net5.0\Repository.Interface.pdb
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\bin\Debug\net5.0\SamuraiApp.Domain.dll
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\bin\Debug\net5.0\SamuraiApp.Domain.pdb
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.csprojAssemblyReference.cache
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.AssemblyInfoInputs.cache
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.AssemblyInfo.cs
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.csproj.CoreCompileInputs.cache
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.csproj.CopyComplete
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.dll
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\ref\Repository.Interface.dll
+C:\Users\WSCUAdmin\source\repos\BCIT\COMP3618\Repo\SamuraiApp\Repository.Interface\obj\Debug\net5.0\Repository.Interface.pdb

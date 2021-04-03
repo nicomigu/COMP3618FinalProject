@@ -1,0 +1,11 @@
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\bin\Debug\ViewModel2.dll
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\bin\Debug\ViewModel2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\bin\Debug\DomainClasses.dll
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\bin\Debug\Repository2.dll
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\bin\Debug\Repository2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\obj\Debug\ViewModel2.csprojAssemblyReference.cache
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\obj\Debug\ViewModel2.csproj.CoreCompileInputs.cache
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\obj\Debug\ViewModel2.csproj.CopyComplete
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\obj\Debug\ViewModel2.dll
+C:\NET\class 11\Samurai\SamuraiProject\ViewModel2\obj\Debug\ViewModel2.pdb

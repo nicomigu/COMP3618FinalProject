@@ -14,3 +14,10 @@ C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattle
 C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
 C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb
 C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\DomainClasses.dll
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\Repository2.dll
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\ViewModel2.dll
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\Repository2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\ViewModel2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CopyComplete

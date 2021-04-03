@@ -95,9 +95,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ViewModel\ViewModel.csproj">
-      <Project>{405a6d96-7b96-45e3-97a2-b126d73179cd}</Project>
-      <Name>ViewModel</Name>
+    <ProjectReference Include="..\DomainClasses\DomainClasses.csproj">
+      <Project>{07609e74-3dec-4ef1-93b9-e24e5a8482b8}</Project>
+      <Name>DomainClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository2\Repository2.csproj">
+      <Project>{03efa1e6-7acd-4e77-be60-5442879b3fb3}</Project>
+      <Name>Repository2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModel2\ViewModel2.csproj">
+      <Project>{0be49adc-9a77-4ae1-8b40-92d83d73102c}</Project>
+      <Name>ViewModel2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
