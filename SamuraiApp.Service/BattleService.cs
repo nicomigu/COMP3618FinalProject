@@ -76,7 +76,7 @@ namespace SamuraiApp.Service
             }
         }
 
-        public ICollection<SamuraiData> GetSamuraisInBattle(int battleId)
+        public IEnumerable<SamuraiData> GetSamuraisInBattle(int battleId)
         {
 
             using (var ctx = new SamuraiAppEntities())
@@ -115,7 +115,7 @@ namespace SamuraiApp.Service
                 {
                     SamuraiId = samuraiId,
                     BattleId = battleId,
-                }
+                };
             }
         }
     }

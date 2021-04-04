@@ -21,7 +21,7 @@ namespace SamuraiApp.Service
         void UpdateBattle(int id, string name, DateTime dateStarted, string town, string country);
 
         [OperationContract]
-        ICollection<SamuraiData> GetSamuraisInBattle(int battleId);
+        IEnumerable<SamuraiData> GetSamuraisInBattle(int battleId);
 
         [OperationContract]
         void AddSamuraiToBattle(int samuraiId, int battleId);
@@ -44,6 +44,12 @@ namespace SamuraiApp.Service
 
         [DataMember]
         public string Country { get; set; }
+        
+        /*
+        [DataMember]
+        public ICollection<SamuraiData> Samurais { get; set; }
+        */
+
 
        
     }
