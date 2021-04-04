@@ -22,6 +22,9 @@ namespace SamuraiApp.Service
 
         [OperationContract]
         ICollection<SamuraiData> GetSamuraisInBattle(int battleId);
+
+        [OperationContract]
+        void AddSamuraiToBattle(int samuraiId, int battleId);
     }
 
     [DataContract]

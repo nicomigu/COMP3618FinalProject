@@ -106,5 +106,17 @@ namespace SamuraiApp.Service
             }
 
         }
+
+        public void AddSamuraiToBattle(int samuraiId, int battleId)
+        {
+            using (var context = new SamuraiAppEntities())
+            {
+                var samuraiInBattle = new BattleSamuraiEntity
+                {
+                    SamuraiId = samuraiId,
+                    BattleId = battleId,
+                }
+            }
+        }
     }
 }
