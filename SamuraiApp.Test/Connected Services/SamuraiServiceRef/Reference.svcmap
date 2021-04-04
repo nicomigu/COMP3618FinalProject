@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="427707ec-16f7-424a-bf84-ac90469361e3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SamuraiService.wsdl" MetadataType="Wsdl" ID="64bb5cd1-612b-4775-ab31-758882f8627d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="73c573d7-9c2d-4860-b0bc-1f0e83daff51" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="d2958ac7-5e3c-4ff6-a876-fd35cc895205" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="9b31a4f1-c41b-4ebf-8573-3c4485af4da4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="a8c50476-f954-435a-a2f9-b361d361e525" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
